@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>wunston.erb</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <script src="superlibrary.js"></script>
+    <script src="sesamestreet.js"></script>
+  </head>
+  <body>
+    <p>Suck it.</p>
+    <% @words.each do |word| %>
+      <p class="cranston">
+        <a href="/<%= word %>"><%= word %></a>
+      </p>
+    <% end %>
+  </body>
+</html>
+
